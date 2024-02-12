@@ -36,7 +36,7 @@ app.use(
 // routes
 
 app.get("/", (req, res) => {
-    res.json({ message: "Welcome to API"});
+    res.json({ message: "Welcome to API test DB"});
 });
 
 //!require("./app/routes/auth.routes")(app);
