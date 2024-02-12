@@ -1,7 +1,8 @@
-const express = require('express');
-const cors = require('cors');
-const cookieSession = require('cookie-session');
-const crypto = require('crypto');
+import mysql from 'mysql2';
+import express from 'express';
+import cors from 'cors';
+import cookieSession from 'cookie-session';
+import crypto from 'crypto';
 
 const secretKey1 = crypto.randomBytes(32).toString('hex');
 const secretKey2 = crypto.randomBytes(32).toString('hex');
